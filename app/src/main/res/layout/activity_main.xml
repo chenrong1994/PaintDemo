@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chenrong.paintdemo.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+
+    </android.support.v7.widget.RecyclerView>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_button"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_alignParentBottom="true">-->
+
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/reset_btn"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/cleanl" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/color"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/color" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/eraser"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/eraser" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/size"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/size" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/shape"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/shape" />-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/save"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/save" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <com.example.chenrong.paintdemo.MyPaintView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rv_button"
+        android:layout_marginTop="1sp"/>
+
+
+</RelativeLayout>
